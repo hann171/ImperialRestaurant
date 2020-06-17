@@ -25,14 +25,63 @@ header{
     background-size: cover;
 }
 
+section{
+    padding: 80px 0;
+}
+
+h1,h2,h3{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;  
+}
+
 h1{
     margin: 0;
     color: #FFF;
     font-size: 240%;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     word-spacing: 4px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2::after{
+    display: block;
+    height: 3px;
+    background-color: #FF7F11;
+    content: "";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+    height: 50px;
+}
+
+.box{
+    padding: 1px;
+}
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.icon{
+    font-size: 200%;
+    display: block;
+    color: #FF7F11;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.long-par{
+    line-height: 145%;
 }
 
 .text-box-besar{
@@ -84,8 +133,9 @@ h1{
 .navbar{
     padding:10px;
     position: relative;
-    background-color: #00000060;
+    background-color: #0c0b0b60;
     top: 20px;
+    font-weight: 600;
 }
 
 .main-nav{
@@ -113,4 +163,29 @@ h1{
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #FF7F11;
+}
+
+.list-gallery{
+    list-style: none;
+    width: 100%;
+}
+.list-gallery li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.pic-gallery{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.pic-gallery img{
+    width: 100%;
+    height: 350px;
+    transform: scale(1.15);
+}
+
+.gallery{
+    padding:0;
 }
