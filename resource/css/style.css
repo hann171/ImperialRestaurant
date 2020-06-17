@@ -179,12 +179,20 @@ h3{
 .pic-gallery{
     width: 100%;
     margin: 0;
+    background-color: #0c0b0b;
     overflow: hidden;
 }
 .pic-gallery img{
     width: 100%;
     height: 350px;
+    transform: scale(1);
+    transition: transform 0.5s;
+    opacity: 0.7;
+}
+
+.pic-gallery img:hover{
     transform: scale(1.15);
+    opacity: 1;
 }
 
 .gallery{
