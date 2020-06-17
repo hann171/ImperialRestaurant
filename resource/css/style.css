@@ -196,5 +196,7 @@ h3{
 }
 
 .gallery{
-    padding:0;
+    background-color: #0c0b0b;
+    color: #FFF;
+    padding: 50px 0;
 }
