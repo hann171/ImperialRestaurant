@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #FFF;
+    color:#040F0F;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    background-image:url(/resource/img/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    margin: 0;
+    color: #FFF;
+    font-size: 240%;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.text-box-besar{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    border-radius: 200px;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-hungry:link,
+.btn-hungry:visited{
+    background-color: #FF7F11;
+    color: #FFF;
+    margin-right: 15px;
+}
+.btn-learn-more:link,
+.btn-learn-more:visited{
+    border: 1px solid #FF7F11;
+    color: #FF7F11;
+    
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #FF206E;
+}
+
+.btn-learn-more:hover,
+.btn-learn-more:active{
+    color: #FFF;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+.navbar{
+    padding:10px;
+    position: relative;
+    background-color: #00000060;
+    top: 20px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #FF7F11;
+}
