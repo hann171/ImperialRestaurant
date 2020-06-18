@@ -72,6 +72,11 @@ h3{
     font-size: 90%;
     line-height: 145%;
 }
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
 
 .icon{
     font-size: 200%;
@@ -206,4 +211,88 @@ h3{
     background-color: #0c0b0b;
     color: #FFF;
     padding: 50px 0;
+}
+
+.order{
+    background-color: #FFF;
+}
+
+.box-how-order:first-child{
+    text-align: center;
+    padding-right: 3%;
+}
+.box-how-order:last-child{
+    margin-top: 7%;
+    padding-left: 5%;
+}
+
+.app-mockup{
+    width: 70%;
+}
+
+.how-order{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 120%;    
+}
+
+.how-order:last-of-type{
+    margin-bottom: 80px;
+}
+
+.how-order div{
+    color: #FF7F11;
+    border: 2px solid #FF7F11;
+    display: block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding:5px;
+    float: left;
+    font-size: 120%;
+    margin-right: 5%;
+}
+
+.btn-downapp img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.keterangan{
+    margin-bottom: 5px;
+    font-size: smaller;
+}
+
+.icon-ket{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #FF7F11;
+    font-size: 120%;
+    margin-top: 4px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.cabang{
+    background-color: #0c0b0b;
+    color: #FFF;
+}
+
+.keterangan a:link,
+.keterangan a:visited{
+    color: #FF7F11;
+    text-decoration: none;
+    border-bottom: 1px solid #FF7F11;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.keterangan a:hover,
+.keterangan a:active{
+    color:#FF206E;
+    border-bottom: 1px solid transparent;
 }
