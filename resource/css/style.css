@@ -326,3 +326,56 @@ cite img{
     margin-right: 10px;
     vertical-align: middle;
 }
+
+.menu-box{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px #040f0f23;
+}
+.menu-box div{
+    padding: 15px;
+    border-bottom: 1px solid #FF7F11;
+}
+
+.harga{
+    font-size: 250%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #FF7F11;
+}
+
+.harga-bln{
+    font-size: 80%;
+}
+
+.harga span{
+    font-size: 25%;
+    font-weight: 300;
+}
+
+.menu-box ul{
+    list-style: none;
+}
+
+.menu-box ul li{
+    padding: 5px 0;
+}
+
+.menu-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+
+.menu-box div:first-child{
+    background-color: #FFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.icon-s{
+    font-size: 120%;
+    color: #FF7F11;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
