@@ -20,6 +20,12 @@ html{
 }
 
 header{
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-image:url(/resource/img/hero.jpg);
     height: 100vh;
     background-position: center;
@@ -150,9 +156,10 @@ input[type=submit]:active{
 
 .navbar{
     padding:10px;
-    position: relative;
+    position: fixed; /* Make it stick/fixed */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
     background-color: #0c0b0b60;
-    top: 20px;
     font-weight: 600;
 }
 
